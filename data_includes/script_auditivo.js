@@ -4,7 +4,7 @@
 PennController.ResetPrefix(null);
 PennController.DebugOff();
 //Define a sequência de telas do experimento
-Sequence("Participante", "Formulario", "Instrucoes", randomize("Teste"), SendResults(), "Final");
+Sequence("Participante", "Formulario", "Instrucoes", randomize("Treino"), SendResults(), "Final");
 
 //Cria um cabeçalho. Todos os comandos dentro do cabeçalho serão rodados automaticamente antes de cada "trial"
 Header(
@@ -43,7 +43,7 @@ newTrial("Participante",
          ,
          newTextInput("Email")
          ,
-         newText("<p>Informe a sua idade na caixa abaixo</p>")
+         newText("<p>Informe a sua IDADE na caixa abaixo</p>")
          ,
          newTextInput("Idade")
          ,
@@ -110,10 +110,14 @@ newTrial("Instrucoes",
     newButton("Iniciar")
         .log()
 )
+
+//Carrega os itens arquivados no GitHub
+AddHost("https://raw.githubusercontent.com/julia-greco/Experimento_com_clivagem/main/chunk_includes/");
+
 //Indica o uso da tabela "treino_script_auditivo.csv"
 Template("tabela_script_auditivo.csv",
 // "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
-    variable => newTrial( "Experimento",
+    variable => newTrial( "Treino",
 //"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
         newAudio("AudioExperimento", variable.AudioExperimento)
             .play()
