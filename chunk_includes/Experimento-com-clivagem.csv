@@ -1,0 +1,193 @@
+Audio,OptionA,OptionB,Question,ExpAnswer,Item,Group
+01CO.wav,A. O Otávio não salvou ninguém.,B. O Otávio não foi salvo por ninguém.,O que aconteceu na  piscina do hotel?,B,01CO,A
+02CS.wav,A. O Antônio não foi indicado por ninguém para o jornal.,B. O Antônio não indicou ninguém para o jornal.,O que aconteceu na emissora de rádio?,A,02CS,A
+03COFS.wav,A. A Larissa não atendeu ninguém durante o serviço de bordo.,B. A Larissa não foi atendida por ninguém durante o serviço de bordo.,O que aconteceu no voo internacional?,B,03COFS,A
+04CSFO.wav,A. O Francisco não foi entediado por ninguém.,B. O Francisco não entediou ninguém.,O que aconteceu durante a conversa?,A,04CSFO,A
+05CO.wav,A. A diretora não presenteou ninguém com um colar. ,B. A diretora não foi presentada com um colar por ninguém. ,O que aconteceu na comemoração de aniversário?,B,05CO,A
+06CS.wav,A. O flautista não foi impressionado por ninguém.,B. O flautista não impressionou ninguém.,O que aconteceu na gravação do disco?,A,06CS,A
+07COFS.wav,A. A antagonista não estapeou ninguém.,B. A antagonista não foi estapeada por ninguém.,O que aconteceu na cena final do filme?,B,07COFS,A
+08CSFO.wav,A. O jornalista não foi informado por ninguém.,B. O jornalista não informou ninguém.,O que aconteceu após o ocorrido no clube?,A,08CSFO,A
+09CO.wav,A. O Camilo não denunciou ninguém aos policiais.,B. O Camilo não foi denunciado aos policiais por ninguém.,O que aconteceu depois da agressão?,B,09CO,A
+10CS.wav,A. A Priscila não foi encontrada por ninguém na pista de dança.,B. A Priscila não encontrou ninguém na pista de dança.,O que aconteceu durante a balada?,A,10CS,A
+11COFS.wav,A. O Vinícius não contratou ninguém para o cargo efetivo.,B. O Vinícius não foi contratado para o cargo efetivo por ninguém.,O que aconteceu após a reunião?,B,11COFS,A
+12CSFO.wav,A. A Carolina não foi defendida por ninguém.,B. A Carolina não defendeu ninguém.,O que aconteceu durante o julgamento?,A,12CSFO,A
+13CO.wav,A. A blogueira não entrevistou ninguém sobre o evento.,B. A blogueira não foi entrevistada sobre o evento por ninguém.,O que aconteceu no mês passado?,B,13CO,A
+14CS.wav,A. O cozinheiro não foi xingado por ninguém pelos pratos quebrados.,B. O cozinheiro não xingou ninguém pelos pratos quebrados.,O que aconteceu durante a festa?,A,14CS,A
+15COFS.wav,A. A assistente não avisou ninguém sobre o figurino.,B. A assistente não foi avisada por ninguém sobre a figurino.,O que aconteceu antes da filmagem?,B,15COFS,A
+16CSFO.wav,A. Os funcionários não foram convidados por ninguém para a festa.,B. Os funcionários não convidaram ninguém para a festa.,O que aconteceu no final do ano?,A,16CSFO,A
+17CO.wav,A. A Isabela não corrigiu ninguém.,B. A Isabela não foi corrigida por ninguém.,O que aconteceu durante o ensaio de ballet?,B,17CO,A
+18CS.wav,A. O Eduardo não foi levado para o trabalho por ninguém.,B. O Eduardo não levou ninguém para o trabalho.,O que aconteceu depois da palestra?,A,18CS,A
+19COFS.wav,A. A Marília não ajudou ninguém.,B. A Marília não foi ajudada por ninguém.,O que aconteceu durante a viagem?,B,19COFS,A
+20CSFO.wav,A. O Benício não foi demitido da empresa por ninguém.,B. O Benício não demitiu ninguém da empresa.,O que aconteceu depois das férias?,A,20CSFO,A
+21CO.wav,A. O noivo não beijou ninguém no altar.,B. O noivo não foi beijado por ninguém no altar.,O que aconteceu no fim da cerimônia?,B,21CO,A
+22CS.wav,A. A colega não foi cumprimentada por ninguém após a homenagem.,B. A colega não cumprimentou ninguém após a homenagem.,O que aconteceu na conferência?,A,22CS,A
+23COFS.wav,A. O enteado não insultou ninguém ao discutir sobre política.,B. O enteado não foi insultado por ninguém ao discutir sobre política.,O que aconteceu no almoço de domingo?,B,23COFS,A
+24CSFO.wav,A. O cliente não levou soco de ninguém durante a briga.,B. O cliente não socou ninguém durante a briga.,O que aconteceu na porta da boate?,A,24CSFO,A
+25D.wav,A. O Diego contou algo na sexta-feira.,B. O Caio viajou na sexta feira.,O que aconteceu na faculdade?,D,25D,A
+26D.wav,A. A madrinha foi rude durante uma briga.,B. A afilhada  insistiu sobre algo durante uma briga.,O que aconteceu na festa de natal?,D,26D,A
+27D.wav,A. A Maria ligou para Rebeca.,B. A Maria ligou para Elena.,O que aconteceu no departamento?,D,27D,A
+28D.wav,A. A vilã estava de moto.,B. A heroína estava de moto.,O que aconteceu na nova série de super-heróis?,D,28D,A
+29D.wav,A. A história do repórter foi contada para a plateia. ,B. A história do cantor famoso foi contada para a plateia,O que aconteceu na entrevista com o cantor famoso?,D,29D,A
+30D.wav,A. A Elisa usava binóculos brancos,B. A Marina usava binóculos brancos ,O que aconteceu durante o espetáculo de dança?,D,30D,A
+31D.wav,A. O detetive estava num carro preto.,B. O suspeito estava num carro preto.,O que aconteceu na sexta-feira à noite?,D,31D,A
+32D.wav,A. O Rodrigo venceu na reunião do partido.,B. O Igor anunciou algo na reunião do partido.,O que aconteceu depois da apuração?,D,32D,A
+33D.wav,A. O Thiago revelou algo em fevereiro.,B. O Bruno se formou em fevereiro.,O que aconteceu no curso técnico?,D,33D,A
+34D.wav,A. O réu escapou na saída do julgamento.,B. O advogado afirmou algo na saída do julgamento.,O que aconteceu em frente ao tribunal?,D,34D,A
+35D.wav,A. O Cláudio ouviu algo após a prova de matemática.,B. O Érico surtou após a prova de matemática.,O que aconteceu na quadra da escola?,D,35D,A
+36D.wav,A. A avó deu um livro de receitas para a neta.,B. A avó deu um livro com as suas receitas para a neta.,O que aconteceu no aniversário do ano passado?,D,36D,A
+37D.wav,A. O Leonardo e o Paulo chamaram o Fábio para um passeio no bosque.,B. O Leonardo chamou o Paulo e o Fábio para um passeio no parque.,O que aconteceu na quarta à tarde?,D,37D,A
+38D.wav,A. O garçom estava esperando os pratos há muito tempo.,B. O cozinheiro estava esperando os pratos há muito tempo.,O que aconteceu no buffet?,D,38D,A
+39D.wav,A. Carla descobriu algo sobre Jairo na sexta-feira.,B. Jairo retornou para algum lugar na sexta-feira.,O que aconteceu na escola?,D,39D,A
+40D.wav,A. Marcela nasceu na metade do mês de outubro.,B. Alex descobriu algo sobre a Marcela em outubro.,O que aconteceu na ligação com Carlos?,D,40D,A
+41D.wav,A. O chefe da Marina denunciou algo no encontro com o delegado.,B. Júlio roubou algo no encontro com o delegado.,O que aconteceu na vara de justiça?,D,41D,A
+42D.wav,A. A Sandy renunciou ao cargo no início do ano.,B. O Luiz confirmou algo no início do ano.,O que aconteceu durante a confraternização?,D,42D,A
+43D.wav,A. Paulo afirmou algo no ofício entregue aos sócios.,B. Lúcia mentiu sobre algo no ofício entregue aos sócios.,O que aconteceu na reunião geral?,D,43D,A
+44D.wav,A. A Larissa chorou antes da ceia de natal.,B. O padrinho do Jonas disse algo sobre a Larissa antes da ceia de natal.,O que aconteceu na sala de jantar?,D,44D,A
+45D.wav,A. A mãe da Lia entendeu algo na primeira semana de fevereiro.,B. O Rubens fugiu na primeira semana de fevereiro.,O que aconteceu durante a conversa com os professores?,D,45D,A
+46D.wav,A. O policial estava armado.,B. O jovem estava armado.,O que aconteceu durante o assalto?,D,46D,A
+47D.wav,A. A Júlia terminou porque estava apaixonada pelo Pedro.,B. A Júlia terminou porque o Lucas estava apaixonado pelo Pedro.,O que aconteceu no parque da cidade?,D,47D,A
+48D.wav,A. A Cecília foi desenhada segurando o giz de cera.,B. A Laura desenhou com o giz de cera.,O que aconteceu durante o recreio?,D,48D,A
+01CS.wav,A. O Otávio não salvou ninguém.,B. O Otávio não foi salvo por ninguém.,O que aconteceu na  piscina do hotel?,B,01CS,B
+02COFS.wav,A. O Antônio não foi indicado por ninguém para o jornal.,B. O Antônio não indicou ninguém para o jornal.,O que aconteceu na emissora de rádio?,A,02COFS,B
+03CSFO.wav,A. A Larissa não atendeu ninguém durante o serviço de bordo.,B. A Larissa não foi atendida por ninguém durante o serviço de bordo.,O que aconteceu no voo internacional?,B,03CSFO,B
+04CO.wav,A. O Francisco não foi entediado por ninguém.,B. O Francisco não entediou ninguém.,O que aconteceu durante a conversa?,A,04CO,B
+05CS.wav,A. A diretora não presenteou ninguém com um colar. ,B. A diretora não foi presentada com um colar por ninguém. ,O que aconteceu na comemoração de aniversário?,B,05CS,B
+06COFS.wav,A. O flautista não foi impressionado por ninguém.,B. O flautista não impressionou ninguém.,O que aconteceu na gravação do disco?,A,06COFS,B
+07CSFO.wav,A. A antagonista não estapeou ninguém.,B. A antagonista não foi estapeada por ninguém.,O que aconteceu na cena final do filme?,B,07CSFO,B
+08CO.wav,A. O jornalista não foi informado por ninguém.,B. O jornalista não informou ninguém.,O que aconteceu após o ocorrido no clube?,A,08CO,B
+09CS.wav,A. O Camilo não denunciou ninguém aos policiais.,B. O Camilo não foi denunciado aos policiais por ninguém.,O que aconteceu depois da agressão?,B,09CS,B
+10COFS.wav,A. A Priscila não foi encontrada por ninguém na pista de dança.,B. A Priscila não encontrou ninguém na pista de dança.,O que aconteceu durante a balada?,A,10COFS,B
+11CSFO.wav,A. O Vinícius não contratou ninguém para o cargo efetivo.,B. O Vinícius não foi contratado para o cargo efetivo por ninguém.,O que aconteceu após a reunião?,B,11CSFO,B
+12CO.wav,A. A Carolina não foi defendida por ninguém.,B. A Carolina não defendeu ninguém.,O que aconteceu durante o julgamento?,A,12CO,B
+13CS.wav,A. A blogueira não entrevistou ninguém sobre o evento.,B. A blogueira não foi entrevistada sobre o evento por ninguém.,O que aconteceu no mês passado?,B,13CS,B
+14COFS.wav,A. O cozinheiro não foi xingado por ninguém pelos pratos quebrados.,B. O cozinheiro não xingou ninguém pelos pratos quebrados.,O que aconteceu durante a festa?,A,14COFS,B
+15CSFO.wav,A. A assistente não avisou ninguém sobre o figurino.,B. A assistente não foi avisada por ninguém sobre a figurino.,O que aconteceu antes da filmagem?,B,15CSFO,B
+16CO.wav,A. Os funcionários não foram convidados por ninguém para a festa.,B. Os funcionários não convidaram ninguém para a festa.,O que aconteceu no final do ano?,A,16CO,B
+17CS.wav,A. A Isabela não corrigiu ninguém.,B. A Isabela não foi corrigida por ninguém.,O que aconteceu durante o ensaio de ballet?,B,17CS,B
+18COFS.wav,A. O Eduardo não foi levado para o trabalho por ninguém.,B. O Eduardo não levou ninguém para o trabalho.,O que aconteceu depois da palestra?,A,18COFS,B
+19CSFO.wav,A. A Marília não ajudou ninguém.,B. A Marília não foi ajudada por ninguém.,O que aconteceu durante a viagem?,B,19CSFO,B
+20CO.wav,A. O Benício não foi demitido da empresa por ninguém.,B. O Benício não demitiu ninguém da empresa.,O que aconteceu depois das férias?,A,20CO,B
+21CS.wav,A. O noivo não beijou ninguém no altar.,B. O noivo não foi beijado por ninguém no altar.,O que aconteceu no fim da cerimônia?,B,21CS,B
+22COFS.wav,A. A colega não foi cumprimentada por ninguém após a homenagem.,B. A colega não cumprimentou ninguém após a homenagem.,O que aconteceu na conferência?,A,22COFS,B
+23CSFO.wav,A. O enteado não insultou ninguém ao discutir sobre política.,B. O enteado não foi insultado por ninguém ao discutir sobre política.,O que aconteceu no almoço de domingo?,B,23CSFO,B
+24CO.wav,A. O cliente não levou soco de ninguém durante a briga.,B. O cliente não socou ninguém durante a briga.,O que aconteceu na porta da boate?,A,24CO,B
+25D.wav,A. O Diego contou algo na sexta-feira.,B. O Caio viajou na sexta feira.,O que aconteceu na faculdade?,D,25D,B
+26D.wav,A. A madrinha foi rude durante uma briga.,B. A afilhada  insistiu sobre algo durante uma briga.,O que aconteceu na festa de natal?,D,26D,B
+27D.wav,A. A Maria ligou para Rebeca.,B. A Maria ligou para Elena.,O que aconteceu no departamento?,D,27D,B
+28D.wav,A. A vilã estava de moto.,B. A heroína estava de moto.,O que aconteceu na nova série de super-heróis?,D,28D,B
+29D.wav,A. A história do repórter foi contada para a plateia. ,B. A história do cantor famoso foi contada para a plateia,O que aconteceu na entrevista com o cantor famoso?,D,29D,B
+30D.wav,A. A Elisa usava binóculos brancos,B. A Marina usava binóculos brancos ,O que aconteceu durante o espetáculo de dança?,D,30D,B
+31D.wav,A. O detetive estava num carro preto.,B. O suspeito estava num carro preto.,O que aconteceu na sexta-feira à noite?,D,31D,B
+32D.wav,A. O Rodrigo venceu na reunião do partido.,B. O Igor anunciou algo na reunião do partido.,O que aconteceu depois da apuração?,D,32D,B
+33D.wav,A. O Thiago revelou algo em fevereiro.,B. O Bruno se formou em fevereiro.,O que aconteceu no curso técnico?,D,33D,B
+34D.wav,A. O réu escapou na saída do julgamento.,B. O advogado afirmou algo na saída do julgamento.,O que aconteceu em frente ao tribunal?,D,34D,B
+35D.wav,A. O Cláudio ouviu algo após a prova de matemática.,B. O Érico surtou após a prova de matemática.,O que aconteceu na quadra da escola?,D,35D,B
+36D.wav,A. A avó deu um livro de receitas para a neta.,B. A avó deu um livro com as suas receitas para a neta.,O que aconteceu no aniversário do ano passado?,D,36D,B
+37D.wav,A. O Leonardo e o Paulo chamaram o Fábio para um passeio no bosque.,B. O Leonardo chamou o Paulo e o Fábio para um passeio no parque.,O que aconteceu na quarta à tarde?,D,37D,B
+38D.wav,A. O garçom estava esperando os pratos há muito tempo.,B. O cozinheiro estava esperando os pratos há muito tempo.,O que aconteceu no buffet?,D,38D,B
+39D.wav,A. Carla descobriu algo sobre Jairo na sexta-feira.,B. Jairo retornou para algum lugar na sexta-feira.,O que aconteceu na escola?,D,39D,B
+40D.wav,A. Marcela nasceu na metade do mês de outubro.,B. Alex descobriu algo sobre a Marcela em outubro.,O que aconteceu na ligação com Carlos?,D,40D,B
+41D.wav,A. O chefe da Marina denunciou algo no encontro com o delegado.,B. Júlio roubou algo no encontro com o delegado.,O que aconteceu na vara de justiça?,D,41D,B
+42D.wav,A. A Sandy renunciou ao cargo no início do ano.,B. O Luiz confirmou algo no início do ano.,O que aconteceu durante a confraternização?,D,42D,B
+43D.wav,A. Paulo afirmou algo no ofício entregue aos sócios.,B. Lúcia mentiu sobre algo no ofício entregue aos sócios.,O que aconteceu na reunião geral?,D,43D,B
+44D.wav,A. A Larissa chorou antes da ceia de natal.,B. O padrinho do Jonas disse algo sobre a Larissa antes da ceia de natal.,O que aconteceu na sala de jantar?,D,44D,B
+45D.wav,A. A mãe da Lia entendeu algo na primeira semana de fevereiro.,B. O Rubens fugiu na primeira semana de fevereiro.,O que aconteceu durante a conversa com os professores?,D,45D,B
+46D.wav,A. O policial estava armado.,B. O jovem estava armado.,O que aconteceu durante o assalto?,D,46D,B
+47D.wav,A. A Júlia terminou porque estava apaixonada pelo Pedro.,B. A Júlia terminou porque o Lucas estava apaixonado pelo Pedro.,O que aconteceu no parque da cidade?,D,47D,B
+48D.wav,A. A Cecília foi desenhada segurando o giz de cera.,B. A Laura desenhou com o giz de cera.,O que aconteceu durante o recreio?,D,48D,B
+01COFS.wav,A. O Otávio não salvou ninguém,B. O Otávio não foi salvo por ninguém,O que aconteceu na  piscina do hotel?,B,01COFS,C
+02CSFO.wav,A. O Antônio não foi indicado por ninguém para o jornal.,B. O Antônio não indicou ninguém para o jornal.,O que aconteceu na emissora de rádio?,A,02CSFO,C
+03CO.wav,A. A Larissa não atendeu ninguém durante o serviço de bordo,B. A Larissa não foi atendida por ninguém durante o serviço de bordo,O que aconteceu no voo internacional?,B,03CO,C
+04CS.wav,A. O Francisco não foi entediado por ninguém,B. O Francisco não entediou ninguém,O que aconteceu durante a conversa?,A,04CS,C
+05COFS.wav,A. A diretora não presenteou ninguém com um colar,B. A diretora não foi presentada com um colar por ninguém,O que aconteceu na comemoração de aniversário?,B,05COFS,C
+06CSFO.wav,A.O flautista não foi impressionado por ninguém.,B. O flautista não impressionou ninguém.,O que aconteceu na gravação do disco?,A,06CSFO,C
+07CO.wav,A. A antagonista não estapeou ninguém.,B. A antagonista não foi estapeada por ninguém.,O que aconteceu na cena final do filme?,B,07CO,C
+08CS.wav,A.O jornalista não foi informado por ninguém.,B.O jornalista não informou ninguém.,O que aconteceu após o ocorrido no clube?,A,08CS,C
+09COFS.wav,A.O Camilo não denunciou ninguém aos policiais.,B.O Camilo não foi denunciado aos policiais por ninguém.,O que aconteceu depois da agressão?,B,09COFS,C
+10CSFO.wav,A. A Priscila não foi encontrada por ninguém na pista de dança,B. A Priscila não encontrou ninguém na pista de dança ,O que aconteceu durante a balada?,A,10CSFO,C
+11CO.wav,A.O Vinícius não contratou ninguém para o cargo efetivo,B. O Vinícius não foi contratado para o cargo efetivo por ninguém.,O que aconteceu após a reunião,B,11CO,C
+12CS.wav,A. A Carolina não foi defendida por ninguém  ,B. A Carolina não defendeu ninguém,O que aconteceu durante o julgamento?,A,12CS,C
+13COFS.wav,A. A blogueira não entrevistou ninguém sobre o evento.,B. A blogueira não foi entrevistada sobre o evento por ninguém.,O que aconteceu no mês passado?,B,13COFS,C
+14CSFO.wav,A. O cozinheiro não foi xingado por ninguém pelos pratos quebrados.,B. O cozinheiro não xingou ninguém pelos pratos quebrados.,O que aconteceu durante a festa?,A,14CSFO,C
+15CO.wav,A. A assistente não avisou ninguém sobre o figurino ,B. A assistente não foi avisada por ninguém sobre a figurino,O que aconteceu antes da filmagem?,B,15CO,C
+16CS.wav,A. Os funcionários não foram convidados por ninguém para a festa.,B. Os funcionários não convidaram ninguém para a festa.,O que aconteceu no final do ano?,A,16CS,C
+17COFS.wav,A. A Isabela não corrigiu ninguém ,B. A Isabela não foi corrigida por ninguém ,O que aconteceu durante o ensaio de ballet?,B,17COFS,C
+18CSFO.wav,A. O Eduardo não foi levado para o trabalho por ninguém.,B. O Eduardo não levou ninguém para o trabalho.,O que aconteceu depois da palestra?,A,18CSFO,C
+19CO.wav,A. A Marília não ajudou ninguém.,B. A Marília não foi ajudada por ninguém.,O que aconteceu durante a viagem?,B,19CO,C
+20CS.wav,A. O Benício não foi demitido da empresa por ninguém.,B. O Benício não demitiu ninguém da empresa.,O que aconteceu depois das férias?,A,20CS,C
+21COFS.wav,A. O noivo não beijou ninguém no altar.,B. O noivo não foi beijado por ninguém no altar.,O que aconteceu no fim da cerimônia?,B,21COFS,C
+22CSFO.wav,A. A colega não foi cumprimentada por ninguém após a homenagem.,B. A colega não cumprimentou ninguém após a homenagem.,O que aconteceu na conferência?,A,22CSFO,C
+23CO.wav,A. O enteado não insultou ninguém ao discutir sobre política.,B. O enteado não foi insultado por ninguém ao discutir sobre política.,O que aconteceu no almoço de domingo?,B,23CO,C
+24CS.wav,A. O cliente não levou soco de ninguém durante a briga.,B. O cliente não socou ninguém durante a briga.,"O que aconteceu na porta da boate?",A,24CS,C
+25D.wav,A. O Diego contou algo na sexta-feira ,B. O Caio viajou na sexta feira ,O que aconteceu na faculdade?,D,25D,C
+26D.wav,A. A madrinha foi rude durante uma briga.,B.  A afilhada  insistiu sobre algo durante uma briga.,O que aconteceu na festa de natal?,D,26D,C
+27D.wav,A. A Maria ligou para Rebeca.,B. A Maria ligou para Elena.,O que aconteceu no departamento?,D,27D,C
+28D.wav,A. A vilã estava de moto. ,B. A heroína estava de moto.,O que aconteceu na nova série de super-heróis?,D,28D,C
+29D.wav,A. A história do repórter foi contada para a plateia ,B. A história do cantor famoso foi contada para a plateia ,O que aconteceu na entrevista com o cantor famoso?,D,29D,C
+30D.wav,A. A Elisa usava binóculos brancos. ,B. A Marina usava binóculos brancos. ,O que aconteceu durante o espetáculo de dança?,D,30D,C
+31D.wav,A. O detetive estava num carro preto.,B. O suspeito estava num carro preto.,O que aconteceu na sexta-feira à noite?,D,31D,C
+32D.wav,A. O Rodrigo venceu na reunião do partido.,B. O Igor anunciou algo na reunião do partido.,O que aconteceu depois da apuração?,D,32D,C
+33D.wav,A. O Thiago revelou algo em fevereiro.,B. O Bruno se formou em fevereiro.,O que aconteceu no curso técnico?,D,33D,C
+34D.wav,A. O réu escapou na saída do julgamento.,B. O advogado afirmou algo na saída do julgamento.,O que aconteceu em frente ao tribunal?,D,34D,C
+35D.wav,A. O Cláudio ouviu algo após a prova de matemática.,B. O Érico surtou após a prova de matemática.,"O que aconteceu na quadra da escola?",D,35D,C
+36D.wav,A. A avó deu um livro de receitas para a neta.,B. A avó deu um livro com as suas receitas para a neta.,"O que aconteceu no aniversário do ano passado?",D,36D,C
+37D.wav,A. O Leonardo e o Paulo chamaram o Fábio para um passeio no bosque. ,B. O Leonardo chamou o Paulo e o Fábio para um passeio no parque. ,"O que aconteceu na quarta à tarde?",D,37D,C
+38D.wav,A. O garçom estava esperando os pratos há muito tempo.,B. O cozinheiro estava esperando os pratos há muito tempo.,O que aconteceu no buffet?,D,38D,C
+39D.wav,A. Carla descobriu algo sobre Jairo na sexta-feira. ,B. Jairo retornou para algum lugar na sexta-feira.,O que aconteceu na escola?,D,39D,C
+40D.wav,A. Marcela nasceu na metade do mês de outubro.,B. Alex descobriu algo sobre a Marcela em outubro.,"O que aconteceu na ligação com Carlos?",D,40D,C
+41D.wav,A. O chefe da Marina denunciou algo no encontro com o delegado.,B. Júlio roubou algo no encontro com o delegado.,O que aconteceu na vara de justiça?,D,41D,C
+42D.wav,A. A Sandy renunciou ao cargo no início do ano.,B.  O Luiz confirmou algo no início do ano.,"O que aconteceu durante a confraternização?",D,42D,C
+43D.wav,A. Paulo afirmou algo no ofício entregue aos sócios.,B. Lúcia mentiu sobre algo no ofício entregue aos sócios.,O que aconteceu na reunião geral?,D,43D,C
+44D.wav,A. A Larissa chorou antes da ceia de natal.,B. O padrinho do Jonas disse algo sobre a Larissa antes da ceia de natal.,O que aconteceu na sala de jantar?,D,44D,C
+45D.wav,A. A mãe da Lia entendeu algo na primeira semana de fevereiro.,B. O Rubens fugiu na primeira semana de fevereiro.,O que aconteceu durante a conversa com os professores?,D,45D,C
+46D.wav,A. O policial estava armado.,B. O jovem estava armado.,"O que aconteceu durante o assalto?",D,46D,C
+47D.wav,A. A Júlia terminou porque estava apaixonada pelo Pedro.,B. A Júlia terminou porque o Lucas estava apaixonado pelo Pedro.,"O que aconteceu no parque da cidade?",D,47D,C
+48D.wav,A. A Cecília foi desenhada segurando o giz de cera.,B. A Laura desenhou com o giz de cera.,"O que aconteceu durante o recreio?",D,48D,C
+01CSFO.wav,A. O Otávio não salvou ninguém,B. O Otávio não foi salvo por ninguém ,O que aconteceu na  piscina do hotel?,B,01CSFO,D
+02CO.wav,A. O Antônio não foi indicado por ninguém para o jornal.,B. O Antônio não indicou ninguém para o jornal.,O que aconteceu na emissora de rádio?,A,02CO,D
+03CS.wav,A. A Larissa não atendeu ninguém durante o serviço de bordo,B. A Larissa não foi atendida por ninguém durante o serviço de bordo,O que aconteceu no voo internacional?,B,03CS,D
+04COFS.wav,A. O Francisco não foi entediado por ninguém,B. O Francisco não entediou ninguém,O que aconteceu durante a conversa?,A,04COFS,D
+05CSFO.wav,A. A diretora não presenteou ninguém com um colar ,B. A diretora não foi presentada com um colar por ninguém ,O que aconteceu na comemoração de aniversário?,B,05CSFO,D
+06CO.wav,A. O flautista não foi impressionado por ninguém.,B. O flautista não impressionou ninguém.,O que aconteceu na gravação do disco?,A,06CO,D
+07CS.wav,A. A antagonista não estapeou ninguém.,B. A antagonista não foi estapeada por ninguém.,O que aconteceu na cena final do filme?,B,07CS,D
+08COFS.wav,A. O jornalista não foi informado por ninguém. ,B. O jornalista não informou ninguém. ,O que aconteceu após o ocorrido no clube?,A,08COFS,D
+09CSFO.wav,A. O Camilo não denunciou ninguém aos policiais.,B. O Camilo não foi denunciado aos policiais por ninguém.,O que aconteceu depois da agressão?,B,09CSFO,D
+10CO.wav,A. A Priscila não foi encontrada por ninguém na pista de dança,B. A Priscila não encontrou ninguém na pista de dança ,O que aconteceu durante a balada?,A,10CO,D
+11CS.wav,A. O Vinícius não contratou ninguém para o cargo efetivo.,B. O Vinícius não foi contratado para o cargo efetivo por ninguém.,O que aconteceu após a reunião?,B,11CS,D
+12COFS.wav,A. A Carolina não foi defendida por ninguém  ,B. A Carolina não defendeu ninguém ,O que aconteceu durante o julgamento?,A,12COFS,D
+13CSFO.wav,A. A blogueira não entrevistou ninguém sobre o evento.,B. A blogueira não foi entrevistada sobre o evento por ninguém.,O que aconteceu no mês passado?,B,13CSFO,D
+14CO.wav,A. O cozinheiro não foi xingado por ninguém pelos pratos quebrados.,B. O cozinheiro não xingou ninguém pelos pratos quebrados.,O que aconteceu durante a festa?,A,14CO,D
+15CS.wav,A. A assistente não avisou ninguém sobre o figurino ,B. A assistente não foi avisada por ninguém sobre a figurino,O que aconteceu antes da filmagem?,B,15CS,D
+16COFS.wav,A. Os funcionários não foram convidados por ninguém para a festa.,B. Os funcionários não convidaram ninguém para a festa.,"O que aconteceu no final do ano?",A,16COFS,D
+17CSFO.wav,A. A Isabela não corrigiu ninguém ,B. A Isabela não foi corrigida por ninguém ,"O que aconteceu durante o ensaio de ballet?",B,17CSFO,D
+18CO.wav,A. O Eduardo não foi levado para o trabalho por ninguém.,B. O Eduardo não levou ninguém para o trabalho.,O que aconteceu depois da palestra?,A,18CO,D
+19CS.wav,A. A Marília não ajudou ninguém.,B. A Marília não foi ajudada por ninguém.,O que aconteceu durante a viagem?,B,19CS,D
+20COFS.wav,A. O Benício não foi demitido da empresa por ninguém.,B. O Benício não demitiu ninguém da empresa.,"O que aconteceu depois das férias?",A,20COFS,D
+21CSFO.wav,A. O noivo não beijou ninguém no altar.,B.  O noivo não foi beijado por ninguém no altar.,O que aconteceu no fim da cerimônia?,B,21CSFO,D
+22CO.wav,A. A colega não foi cumprimentada por ninguém após a homenagem.,B. A colega não cumprimentou ninguém após a homenagem.,O que aconteceu na conferência?,A,22CO,D
+23CS.wav,A. O enteado não insultou ninguém ao discutir sobre política.,B. O enteado não foi insultado por ninguém ao discutir sobre política.,O que aconteceu no almoço de domingo?,B,23CS,D
+24COFS.wav,A. O cliente não levou soco de ninguém durante a briga.,B. O cliente não socou ninguém durante a briga.,"O que aconteceu na porta da boate?",A,24COFS,D
+25D.wav,A. O Diego contou algo na sexta-feira ,B. O Caio viajou na sexta feira ,"O que aconteceu na faculdade?",D,25D,D
+26D.wav,A. A madrinha foi rude durante uma briga.,B.  A afilhada  insistiu sobre algo durante uma briga.,O que aconteceu na festa de natal?,D,26D,D
+27D.wav,A. A Maria ligou para Rebeca.,B. A Maria ligou para Elena.,O que aconteceu no departamento?,D,27D,D
+28D.wav,A. A vilã estava de moto. ,B. A heroína estava de moto.,O que aconteceu na nova série de super-heróis?,D,28D,D
+29D.wav,A. A história do repórter foi contada para a plateia ,B. A história do cantor famoso foi contada para a plateia ,O que aconteceu na entrevista com o cantor famoso?,D,29D,D
+30D.wav,A. A Elisa usava binóculos brancos. ,B. A Marina usava binóculos brancos. ,O que aconteceu durante o espetáculo de dança?,D,30D,D
+31D.wav,A. O detetive estava num carro preto.,B. O suspeito estava num carro preto.,O que aconteceu na sexta-feira à noite?,D,31D,D
+32D.wav,A. O Rodrigo venceu na reunião do partido.,B. O Igor anunciou algo na reunião do partido.,O que aconteceu depois da apuração?,D,32D,D
+33D.wav,A. O Thiago revelou algo em fevereiro.,B. O Bruno se formou em fevereiro.,O que aconteceu no curso técnico?,D,33D,D
+34D.wav,A. O réu escapou na saída do julgamento.,B. O advogado afirmou algo na saída do julgamento.,O que aconteceu em frente ao tribunal?,D,34D,D
+35D.wav,A. O Cláudio ouviu algo após a prova de matemática.,B. O Érico surtou após a prova de matemática.,"O que aconteceu na quadra da escola?",D,35D,D
+36D.wav,A. A avó deu um livro de receitas para a neta.,B. A avó deu um livro com as suas receitas para a neta.,"O que aconteceu no aniversário do ano passado?",D,36D,D
+37D.wav,A. O Leonardo e o Paulo chamaram o Fábio para um passeio no bosque. ,B. O Leonardo chamou o Paulo e o Fábio para um passeio no parque. ,"O que aconteceu na quarta à tarde?",D,37D,D
+38D.wav,A. O garçom estava esperando os pratos há muito tempo.,B. O cozinheiro estava esperando os pratos há muito tempo.,O que aconteceu no buffet?,D,38D,D
+39D.wav,A. Carla descobriu algo sobre Jairo na sexta-feira. ,B. Jairo retornou para algum lugar na sexta-feira.,O que aconteceu na escola?,D,39D,D
+40D.wav,A. Marcela nasceu na metade do mês de outubro.,B. Alex descobriu algo sobre a Marcela em outubro.,"O que aconteceu na ligação com Carlos?",D,40D,D
+41D.wav,A. O chefe da Marina denunciou algo no encontro com o delegado.,B. Júlio roubou algo no encontro com o delegado.,O que aconteceu na vara de justiça?,D,41D,D
+42D.wav,A. A Sandy renunciou ao cargo no início do ano.,B.  O Luiz confirmou algo no início do ano.,"O que aconteceu durante a confraternização?",D,42D,D
+43D.wav,A. Paulo afirmou algo no ofício entregue aos sócios.,B. Lúcia mentiu sobre algo no ofício entregue aos sócios.,O que aconteceu na reunião geral?,D,43D,D
+44D.wav,A. A Larissa chorou antes da ceia de natal.,B. O padrinho do Jonas disse algo sobre a Larissa antes da ceia de natal.,O que aconteceu na sala de jantar?,D,44D,D
+45D.wav,A. A mãe da Lia entendeu algo na primeira semana de fevereiro.,B. O Rubens fugiu na primeira semana de fevereiro.,O que aconteceu durante a conversa com os professores?,D,45D,D
+46D.wav,A. O policial estava armado.,B. O jovem estava armado.,"O que aconteceu durante o assalto?",D,46D,D
+47D.wav,A. A Júlia terminou porque estava apaixonada pelo Pedro.,B. A Júlia terminou porque o Lucas estava apaixonado pelo Pedro.,"O que aconteceu no parque da cidade?",D,47D,D
+48D.wav,A. A Cecília foi desenhada segurando o giz de cera.,B. A Laura desenhou com o giz de cera.,"O que aconteceu durante o recreio?",D,48D,D
