@@ -3,8 +3,9 @@
 //Inativa os prefixos do PennController (sem esse comando os códigos não funcionam)
 PennController.ResetPrefix(null);
 PennController.DebugOff();
+
 //Define a sequência de telas do experimento
-Sequence("Participante", "Formulario", "Instrucoes", randomize("Treino"), SendResults(), "Final");
+Sequence("Participante", "Formulario", "Instrucoes", "Treino", "Instrucoes2",randomize("Experimento"),SendResults(), "Final");
 
 //Cria um cabeçalho. Todos os comandos dentro do cabeçalho serão rodados automaticamente antes de cada "trial"
 Header(
@@ -115,11 +116,11 @@ newTrial("Instrucoes",
 AddHost("https://raw.githubusercontent.com/julia-greco/Experimento_com_clivagem/main/chunk_includes/");
 
 //Indica o uso da tabela "treino_script_auditivo.csv"
-Template("tabela_script_auditivo.csv",
+Template("Treino-experimento-com-clivagem.csv",
 // "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
     variable => newTrial( "Treino",
 //"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
-        newAudio("AudioExperimento", variable.AudioExperimento)
+        newAudio("AudioTreino", variable.AudioTreino)
             .play()
         ,
 //Exibe na tela a imagem "alto_falante_icone.png"
@@ -139,14 +140,79 @@ Template("tabela_script_auditivo.csv",
             .remove()
         ,
         //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
-        newText("A",variable.SentencaA)
+        newText("A",variable.OptionA)
         ,
-        newText("B",variable.SentencaB)
+        newText("B",variable.OptionB)
         ,
       //Cria um canvas (uma caixa) e coloca os textos "A" e "B" um ao lado do outro
-        newCanvas( 1800 , 900 )
-            .add( -100 , 100 , getText("A") )
-            .add( 300 , 100 , getText("B") )
+	newCanvas( 1100 , 500 )
+            .add( 150 , 100 , getText("A") )
+            .add( 750 , 100 , getText("B") )
+	    .cssContainer("border", "solid 1px black")
+            .print() //Agora, dentro do canvas, é que os textos "A" e "B" serão impressos na tela
+        ,
+                         
+        //Possibilita a seleção dos textos "A" e "B" através do mouse ou das teclas "A" e "B". Também envia para o arquivo "result" qual texto foi selecionado
+        newSelector()
+            .add( getText("A") , getText("B") )
+            .keys("A","B")
+            .log()
+            .wait()
+    )
+         
+);
+
+newTrial("Instrucoes2",
+
+newText("<p>Agora que você já praticou, vamos iniciar o experimento!</p>")
+    ,
+    newText("<p>A tarefa irá durar em torno de 10 minutos, certifique-se de que você está em um lugar tranquilo e silencioso para que não haja interrupções.</p>")
+    ,
+    newText("<p>Clique em &quot;Iniciar&quot; quando estiver pronto para começar.</p>")
+    ,
+    newButton("Iniciar")
+    .wait()
+    .log()
+)
+
+//Indica o uso da tabela "treino_script_auditivo.csv"
+Template("Experimento-com-clivagem.csv",
+// "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
+    variable => newTrial( "Experimento",
+//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
+        newAudio("AudioExperimento", variable.Audio)
+            .play()
+        ,
+//Exibe na tela a imagem "alto_falante_icone.png"
+        newImage("alto_falante_icone.png")
+            .size( 90 , 90 )
+            .print()
+            .center()
+       
+        ,
+//Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
+        newButton("Próximo")
+            .log()
+            .remove()
+        ,
+//Remove a imagem "alto_falante_icone.png" 
+        getImage("alto_falante_icone.png")
+            .remove()
+        ,
+        //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
+        newText("Pergunta",variable.Question)
+        .center()
+        ,
+        //Cria um novo texto nomeado "A" e "variable" aponta para todas as linhas da coluna "SentencaA" e imprime o texto presente nelas 
+        newText("A",variable.OptionA)
+        ,
+        newText("B",variable.OptionB)
+        ,
+      //Cria um canvas (uma caixa) e coloca os textos "A" e "B" um ao lado do outro
+     newCanvas( 1100 , 500 )
+            .add( 150 , 100 , getText("A") )
+            .add( 750 , 100 , getText("B") )
+            .cssContainer("border", "solid 1px black")
             .print() //Agora, dentro do canvas, é que os textos "A" e "B" serão impressos na tela
         ,
                          
@@ -162,7 +228,6 @@ Template("tabela_script_auditivo.csv",
     .log("Group", variable.Group)
     .log("Item", variable.Item)
 );
-
 //Nova Tela - Tela final    
 newTrial( "Final" ,
     newText("<p> O experimento foi concluído. Obrigada pela participação!</p>")
