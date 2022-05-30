@@ -236,6 +236,7 @@ Template("Experimento-com-clivagem.csv",
     //Envia para o arquivo "results" o conteúdo da coluna "Group" 
     .log("Group", variable.Group)
     .log("Item", variable.Item)
+    .log("ExpAnswer", variable.ExpAnswer)
 );
 //Nova Tela - Tela final    
 newTrial( "Final" ,
