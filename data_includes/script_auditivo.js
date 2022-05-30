@@ -5,7 +5,7 @@ PennController.ResetPrefix(null);
 PennController.DebugOff();
 
 //Define a sequência de telas do experimento
-Sequence("Participante", "Formulario", "Instrucoes", "Treino", "Instrucoes2",randomize("Experimento"),SendResults(), "Final");
+Sequence("Participante", "Instrucoes", "Treino", "Instrucoes2",randomize("Experimento"),SendResults(), "Final");
 
 //Cria um cabeçalho. Todos os comandos dentro do cabeçalho serão rodados automaticamente antes de cada "trial"
 Header(
@@ -82,15 +82,6 @@ newTrial("Participante",
 .log( "IDADE", getVar("IDADE") )
 .log( "ESCOLARIDADE", getVar("ESCOLARIDADE") )
 
-//Nova tela - Tela do formulário
-newTrial("Formulario",
-         
-   newText("<p>Antes de prosseguir para o experimento, acesse por favor o formulário no link abaixo para a assinatura do Termo de Consentimento Livre Esclarecido</p>")
-   ,
-   newText("<p><a href='' target='_blank'>Formulario</a></p>")
-   ,
-   newButton("Próximo")
-)
 
 //Nova tela - Tela de instruções do treino
 newTrial("Instrucoes",
@@ -119,17 +110,27 @@ AddHost("https://raw.githubusercontent.com/julia-greco/Experimento_com_clivagem/
 Template("Treino-experimento-com-clivagem.csv",
 // "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
     variable => newTrial( "Treino",
-//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
-        newAudio("AudioTreino", variable.AudioTreino)
-            .play()
-        ,
 //Exibe na tela a imagem "alto_falante_icone.png"
         newImage("alto_falante_icone.png")
             .size( 90 , 90 )
             .print()
             .center()
-       
+	,
+
+//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
+        newAudio("AudioTreino", variable.AudioTreino)
+            .play()
+	    .wait()
         ,
+
+	newButton("Tocar Novamente")
+	    .once()
+	    .test.clicked()
+            .remove()
+        ,
+	getAudio("AudioTreino", variable.AudioTreino)
+	    .play()
+	,
 //Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
         newButton("Próximo")
             .log()
@@ -145,10 +146,9 @@ Template("Treino-experimento-com-clivagem.csv",
         newText("B",variable.OptionB)
         ,
       //Cria um canvas (uma caixa) e coloca os textos "A" e "B" um ao lado do outro
-	newCanvas( 1100 , 500 )
-            .add( 150 , 100 , getText("A") )
-            .add( 750 , 100 , getText("B") )
-	    .cssContainer("border", "solid 1px black")
+	newCanvas( 500 , 500 )
+            .add( 50 , 100 , getText("A") )
+            .add( 50 , 200 , getText("B") )
             .print() //Agora, dentro do canvas, é que os textos "A" e "B" serão impressos na tela
         ,
                          
@@ -179,17 +179,27 @@ newText("<p>Agora que você já praticou, vamos iniciar o experimento!</p>")
 Template("Experimento-com-clivagem.csv",
 // "variable" vai automaticamente apontar para cada linha da tabela "tabela_script_auditivo.csv"
     variable => newTrial( "Experimento",
-//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
-        newAudio("AudioExperimento", variable.Audio)
-            .play()
-        ,
 //Exibe na tela a imagem "alto_falante_icone.png"
         newImage("alto_falante_icone.png")
             .size( 90 , 90 )
             .print()
             .center()
-       
+	,
+
+//"variable" aponta para todas as linhas da coluna "AudioExperimento" da tabela "tabela_script_auditivo.csv" e toca o audio referente a elas
+        newAudio("Audio", variable.Audio)
+            .play()
+	    .wait()
         ,
+
+	newButton("Tocar Novamente")
+	    .once()
+	    .test.clicked()
+            .remove()
+        ,
+	getAudio("Audio", variable.Audio)
+	    .play()
+	,
 //Cria um botão nomeado "Próximo", envia para o arquivo "results" a informação de quando ele foi pressionado e remove ele da tela
         newButton("Próximo")
             .log()
@@ -209,10 +219,9 @@ Template("Experimento-com-clivagem.csv",
         newText("B",variable.OptionB)
         ,
       //Cria um canvas (uma caixa) e coloca os textos "A" e "B" um ao lado do outro
-     newCanvas( 1100 , 500 )
-            .add( 150 , 100 , getText("A") )
-            .add( 750 , 100 , getText("B") )
-            .cssContainer("border", "solid 1px black")
+     newCanvas( 500 , 500 )
+            .add( 50 , 100 , getText("A") )
+            .add( 50 , 200 , getText("B") )
             .print() //Agora, dentro do canvas, é que os textos "A" e "B" serão impressos na tela
         ,
                          
@@ -233,6 +242,13 @@ newTrial( "Final" ,
     newText("<p> O experimento foi concluído. Obrigada pela participação!</p>")
     .center()
     ,
+    
+   newText("<p>Antes de encerrar a janela do experimento, acesse por favor o formulário no link abaixo para a assinatura do Termo de Consentimento Livre Esclarecido</p>")
+   ,
+   
+   newText("<p><a href='https://forms.gle/oKLkoDJzpQJJxRJF7' target='_blank'>Formulario</a></p>")
+   ,
+   
     newText("<p> Você receberá um e-mail com a sua declaração de participação.</p>")
     .center()
     .wait()
